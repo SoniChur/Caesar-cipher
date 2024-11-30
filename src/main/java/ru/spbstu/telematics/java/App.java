@@ -63,7 +63,7 @@ public class App
         }
         App cipher1 = new App(key1);
         System.out.print("Введите текст для расшифрования: ");
-        String textToDecrypt = scanner.nextLine(); //Renamed to avoid shadowing
+        String textToDecrypt = scanner.nextLine();
         System.out.println(cipher1.decrypt(textToDecrypt));
     
         scanner.close();
